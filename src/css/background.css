@@ -1,0 +1,323 @@
+.custom-card {
+  position: relative;
+}
+
+.card-img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(38,38,166,1) 99%, rgba(249,250,251,1) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-img-container:hover .overlay {
+  opacity: 0.7;
+}
+.text-overlay3 {
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.text-overlay {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.text-overlay2 {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.card-img-container:hover .text-overlay {
+  opacity: 1;
+}
+.card-img-container:hover .text-overlay3{
+  opacity: 1;
+}
+.custom-button {
+  position: absolute;
+  top: 80%;
+  left: 90%;
+  transform: translateX(-50%);
+  display: none; /* hide the button by default */
+}
+
+.card-img-container:hover .custom-button {
+  display: block; /* show the button on hover */
+}
+/* YourStyles.css */
+
+.custom-card1 {
+  
+
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-image1 {
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+
+}
+.card-shadow{
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2); 
+}
+.custom-card1:hover .card-image1 {
+  transform: scale(1.04);
+}
+
+.dark{
+  background:#0a2351;
+}
+
+.custom-button1 {
+  background-image: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 91.6% );
+  border-color:blue;
+  font-size:17px
+ 
+}
+
+.custom-button1:hover {
+  background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );
+  border-color: blue;
+
+}
+.custom-button2 {
+  background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );
+  border-color: blue; 
+  font-size:17px
+}
+
+.custom-button2:hover {
+  background-image: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 91.6% );
+  border-color:blue;
+
+}
+.animated2:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+.animated1:hover{
+  transform: scale(0.8);
+  transition: 0.4s;
+}
+.text1{
+  font-size:60px;
+}
+.text2{
+  font-size:21px;
+  color:#0a2351
+}
+.text3{
+  font-size: 35px;
+}
+.image1{
+ height:90vh;
+}
+.image2{
+  width:45vw;
+}
+.image3{
+  width: 35vw;
+}
+.image4{
+  width: 50vw;
+}
+.image44{
+  width: 42vw;
+}
+.text5{
+  font-size:20px;
+}
+
+.height{
+  height:55vh;
+}
+.padding{
+  padding-top: 30vh;
+}
+.image8{
+  height: 45vh;
+}
+.image7{
+  height:50vh;
+}
+.text6{
+  font-size: 18px;
+}
+
+
+@media  only screen and (min-width:950px) and (min-height:1100px){
+  .image1{
+    height:60vh;
+  }
+  .height{
+    height: 30vh;
+  }
+  .padding{
+    padding-top: 14vh;
+  }
+  .image7{
+    height:30vh;
+  }
+ .image8{
+  height:27vh;
+ }
+}
+
+@media (max-width: 990px) {
+  .text6{
+    font-size: 17px;
+  }
+  .padding{
+    padding-top: 150px;
+  }
+  .image8{
+    height: 40vh;
+  }
+  .height{
+    height:40vh;
+  }
+  .text1{
+    font-size: 50px;
+  }
+  .image2{
+    width: 70vw;
+  }
+  .text3{
+    font-size: 30px;
+  }
+.image1{
+height: 60vh;
+  
+}
+.image7{
+  height:45vh; 
+ }
+.image3{
+  width:38vw;
+}
+.text5{
+  font-size:18px;
+}
+
+}
+@media (max-width: 767px) {
+  .text6{
+    font-size: 16px;
+  }
+  .image8{
+    height:40vh;
+  }
+  .image1{
+    height:70vh;
+  }
+  .padding{
+    padding-top: 70vh;
+  }
+  .image7{
+   height:75vh; 
+  }
+  .image3{
+   width: 70vw;
+  }
+  .text1{
+    font-size: 40px;
+  }
+ .image4{
+  width:80vw;
+ }
+  .card-image3{
+    padding-top: 20px;
+    }
+    .height{
+      height:45vh;
+    }
+}
+@media (max-width: 450px) {
+  .image7{
+    height:85vh; 
+   }
+  .padding{
+    padding-top: 33vh;
+  }
+  .text1{
+    font-size: 34px;
+  }
+  .image1{
+    height:85vh;
+  }
+  .image2{
+    padding-top: 20px;
+    width:80vw;
+  }
+  .image3{
+    padding-top: 30px;
+    width: 80vw;
+  }
+  .image4{
+    width:100vw;
+  }
+  .text3{
+    font-size: 28px;
+  }
+  .image5{
+    height:130vh;
+  }
+  .center{
+    align-items: center;
+    justify-content: center;
+  }
+ 
+}
+/* styles.css */
+.animated-text {
+  display: inline-block;
+}
+
+/* Define animation */
+@keyframes fadeInLetters {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to each letter */
+.animated-text > * {
+  display: inline-block;
+  animation: fadeInLetters 0.5s forwards;
+  opacity: 0;
+}
